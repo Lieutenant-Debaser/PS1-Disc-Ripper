@@ -5,6 +5,12 @@ This script is used to copy the information present on original Playstation 1
 discs and create valid binary files from that data for personal emulation or
 archival purposes.
 
+### Important Update
+It has come to my attention through testing that this script may not produce
+entirely valid dumps. I believe the .bin files produced are okay, but the
+.cue/.toc file created is not. PCSX-Reloaded (PCSXR) and PCSX ReARMed seem to
+handle them okay, but Mednafen throws an error and will not load the game.
+
 # What This Isn't
 This is not a piracy tool. Officially, I do not condone piracy of any kind.
 Distributing copyrighted work that you do not have the righst to is a criminal
