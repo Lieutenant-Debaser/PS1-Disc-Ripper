@@ -7,9 +7,9 @@ archival purposes.
 
 ### Important Update
 It has come to my attention through testing that this script may not produce
-entirely valid dumps. I believe the .bin files produced are okay, but the
-.cue/.toc file created is not. PCSX-Reloaded (PCSXR) and PCSX ReARMed seem to
-handle them okay, but Mednafen throws an error and will not load the game.
+entirely valid dumps. It appears that the .bin file produced is an overdump.
+Currently investigating ways to fix this, but it may not be possible with
+cdrdao.
 
 # What This Isn't
 This is not a piracy tool. Officially, I do not condone piracy of any kind.
