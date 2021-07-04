@@ -9,7 +9,10 @@ archival purposes.
 It has come to my attention through testing that this script may not produce
 entirely valid dumps. It appears that the .bin file produced is an overdump.
 Currently investigating ways to fix this, but it may not be possible with
-cdrdao.
+cdrdao. <b>If you are on Linux and want something that is plug-and-play,
+Brasero seems to work pretty well and is available in several distro
+repositories. After than, toc2cue can be used to generate a .cue file
+for the .bin file.</b>
 
 # What This Isn't
 This is not a piracy tool. Officially, I do not condone piracy of any kind.
